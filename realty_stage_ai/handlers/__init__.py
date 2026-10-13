@@ -1,0 +1,1 @@
+"""Thin handlers — validate, delegate, return."""
