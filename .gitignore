@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# Model weights & inference caches
+models/weights/*.safetensors
+models/weights/*.pt
+models/weights/*.onnx
+models/weights/*.ckpt
+*.onnx.part
+.cache/
+.huggingface/
+torch_extensions/
+
+# Staged output & render scratch
+renders/
+staging_out/
+*.stage.png
+*.stage.jpg
+*.depth.npy
+*.mask.png
+*.inpaint.tmp
+
+# Listing fixtures pulled from MLS feeds
+fixtures/private/
+fixtures/*_raw/
+*.mls.json
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & profiling
+*.log
+logs/
+profiles/
+*.pstats
+
+# Secrets
+.env
+.env.*
+config/local.toml
+config/secrets.toml
